@@ -1,0 +1,56 @@
+.item {
+  font-size: 30px;
+  margin: 0 auto;
+  color: #181818;
+}
+
+.itemName {
+  font-weight: 600;
+  padding: 20px 0;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete {
+  background-color: #f7ca1a;
+  color: aliceblue;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 5px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.delete:hover {
+  background-color: #fff;
+  border: 2px solid #f7ca1a;
+  color: black;
+  transition-duration: 3s;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+@media (min-width: 600px) {
+  .item {
+    width: 500px;
+  }
+
+  .itemName {
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .item {
+    width: 700px;
+  }
+
+  .itemName {
+    margin-right: 40px;
+  }
+}

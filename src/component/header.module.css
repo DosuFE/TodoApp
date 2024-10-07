@@ -1,0 +1,33 @@
+.header {
+  background-color: #f7ca1a;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 16px 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 600px) {
+  .header {
+    padding: 20px 0;
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    color: aliceblue;
+    padding: 15px 0;
+    font-size: 5rem;
+  }
+  h1 {
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.7);
+  }
+}

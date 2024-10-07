@@ -1,0 +1,69 @@
+.modernForm {
+  background-color: #fff;
+  margin: 0 auto;
+  margin: 50px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.modernInputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 10px;
+}
+
+.modernInput {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  padding: 10px 5px;
+  font-style: italic;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.modernInput:focus {
+  outline: none;
+}
+
+.modernInput::placeholder {
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.modernInputButton {
+  background-color: #f7ca1a;
+  color: aliceblue;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 5px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.modernInputButton:hover {
+  background-color: #f3c511;
+  color: black;
+  transition-duration: 3s;
+}
+
+@media (min-width: 600px) {
+  .modernForm {
+    width: 500px;
+  }
+  .modernInput {
+    padding: 10px 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modernForm {
+    width: 700px;
+  }
+}

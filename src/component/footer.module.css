@@ -1,0 +1,35 @@
+.footer {
+  background-color: #f7ca1a;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+.item {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media (min-width: 600px) {
+  .footer {
+    padding: 30px;
+  }
+  .item {
+    font-size: 30px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media (min-width: 768px) {
+  .item {
+    color: aliceblue;
+    font-size: 35px;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.7);
+  }
+}
